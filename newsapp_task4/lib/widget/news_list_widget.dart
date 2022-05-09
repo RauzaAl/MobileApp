@@ -37,8 +37,6 @@ class NewsListWidget extends StatelessWidget {
             height: 100,
             width: 100,
             decoration: BoxDecoration(
-              //let's add the height
-
               image: DecorationImage(
                   image: NetworkImage(news[index].image), fit: BoxFit.cover),
               borderRadius: BorderRadius.circular(12.0),
